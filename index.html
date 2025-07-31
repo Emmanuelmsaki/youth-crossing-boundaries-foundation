@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Stiftung Jugend fördern - Grenzen übespringen</title>
+  <link rel="stylesheet" href="assets/package/swiper-bundle.min.css">
+  <link rel="icon" href="assets/images/Logo.jpg" sizes="16x16" type="image/png">
+  <!-- Apple touch icons for iOS devices -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/Logo.jpg">
+  <!-- Link to offline Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <!-- Link to custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg fixed-top d-flex flex-wrap" id="navbar">
+    <div class="container-fluid">
+      <span class="navbar-brand me-auto text-dark"><img src="assets/images/Logo.jpg" alt="JUGEND LOGO"
+          class="oval-image">
+      </span>
+      <div class="offcanvas offcanvas-end offcanvas-fullscreen" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <img src="assets/images/Logo.jpg" alt="church" class="oval-image">
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a href="#" class="nav-link mx-lg-2 ">Home</a>
+            </li>
+            <li class="nav-item ">
+              <div class="dropdown">
+                <a class="nav-link mx-lg-2" href="#" id="dropdownMenuFoundation" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Our Foundation<span class="navbar-icon"><i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuFoundation">
+                  <li><a class="dropdown-item hover-move" href="#">history</a></li>
+                  <li><a class="dropdown-item hover-move" href="#">mission</a></li>
+                  <li><a class="dropdown-item hover-move" href="#">foundation board</a></li>
+                  <li><a class="dropdown-item hover-move" href="#">annual report</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a class="nav-link mx-lg-2" href="#" data-bs-toggle="dropdown" role="button" id="dropdownMenuProjects"
+                  aria-expanded="false">Supported Projects<span class="navbar-icon"><i class="fa fa-sort-desc"
+                      aria-hidden="true"></i></span></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuProjects">
+                  <li><a class="dropdown-item  hover-move" href="#">our branch in tanzania</a></li>
+                  <li><a class="dropdown-item  hover-move" href="#">our branch in ethiopia</a></li>
+                  <li><a class="dropdown-item  hover-move" href="#">education in pakistan</a></li>
+                  <li><a class="dropdown-item  hover-move" href="#">individual stipendia</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item ">
+              <div class="dropdown">
+                <a class="nav-link mx-lg-2" href="#" id="dropdownMenuInvolved" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  explore<span class="navbar-icon"><i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuInvolved">
+                  <li><a class="dropdown-item hover-move" href="#">Our blog</a></li>
+                  <li><a class="dropdown-item hover-move" href="#">picture gallery</a></li>
+                  <li><a class="dropdown-item hover-move" href="#">Newsletter Subscription</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item text-muted" href="/author-login"><i class="fa fa-lock pe-1"></i> Staff
+                      Login</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="#" class="Donation-button"><i class="fas fa-hand-holding-heart pe-1"></i>Donate</a>
+
+      <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    </div>
+  </nav>
+  <!--End Navbar-->
+
+  <!-- Carousel -->
+  <div id="mycarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active carousel-nav-item" data-bs-interval="5000">
+        <img src="assets/images/7.jpg" class="d-block w-100 carousel-nav-image" alt="children in school">
+        <div class="carousel-caption carousel-index-caption">
+          <h5>make an impact</h5>
+          <p class="redi">one educated<br> child at a time</p>
+          <a href="#"><button type="button" class="btn btn-outline-danger custom-btn-text">Donate</button></a>
+        </div>
+      </div>
+      <div class="carousel-item carousel-nav-item" data-bs-interval="5000">
+        <img src="assets/images/6.jpg" class="d-block w-100 carousel-nav-image" alt="children in school">
+        <div class="carousel-caption carousel-index-caption">
+          <h5>stand for youth</h5>
+          <p class="redi">inspire hope<br> invest in dreams</p>
+          <a href="#"><button type="button" class="btn btn-outline-danger custom-btn-text">Annual report</button></a>
+        </div>
+      </div>
+      <div class="carousel-item carousel-nav-item" data-bs-interval="5000">
+        <img src="assets/images/4.jpg" class="d-block w-100 carousel-nav-image" alt="children in school">
+        <div class="carousel-caption carousel-index-caption">
+          <h5>building the future</h5>
+          <p class="redi">of children in<br> zanzibar</p>
+        </div>
+      </div>
+      <div class="carousel-item carousel-nav-item" data-bs-interval="5000">
+        <img src="assets/images/17.jpg" class="d-block w-100 carousel-nav-image" alt="children in school">
+        <div class="carousel-caption carousel-index-caption">
+          <h5>build. believe. become.</h5>
+          <p class="redi">we don’t just support<br> we uplift</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Carousel -->
+
+  <div class="container-fluid moto-container">
+    <div class="row">
+      <div class="col-12">
+        <div class="moto-header text-center">
+          <h1 class="moto-title"><i>Youth Crossing Boundaries foundation</i></h1>
+        </div>
+        <div class="index-moto">
+          We are a non-profit organization dedicated to giving every young person access to education.
+        </div>
+        <div class="index-moto-icons">
+          <div class=""><i class="fa fa-check-circle" aria-hidden="true"></i>Education</div>
+          <div class=""><i class="fa fa-check-circle" aria-hidden="true"></i>Empowerment</div>
+          <div class=""><i class="fa fa-check-circle" aria-hidden="true"></i>Opportunity</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid blogu-index-container">
+    <div class="row blogu-row d-flex justify-content-center">
+      <div class="col-sm text-center">
+        <div class="blogu-header">Get updates</div>
+        <h2 class="blogu-text">Our latest news</h2>
+      </div>
+    </div>
+    <div class="swiper1 row-card gx-3 mt-3">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide1">
+          <a href="#" class="blog-blogu-link">
+            <div class="card shadow card-index-blogu-cards h-100">
+              <div>
+                <img src="assets/images/5.jpg" class="card-img-top card-cards-img-top" alt="Our Event">
+                <span class="index-badge">TANZANia</span>
+              </div>
+              <div class="card-body blogu-body">
+                <p class="card-blogu-title"><i class="bi bi-calendar2-check-fill"></i> 11 june 2025</p>
+                <p class="card-text card-cards-text">Stitching Futures: Women Rising Through Skills and Creativity</p>
+                <a href="#" class="card-link blogu-link">
+                  Read More<span class="space-left"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide swiper-slide1">
+          <a href="#" class="blog-blogu-link">
+            <div class="card shadow card-index-blogu-cards h-100">
+              <div>
+                <img src="assets/images/6.jpg" class="card-img-top card-cards-img-top" alt="Our Event">
+                <span class="index-badge">TANZANia</span>
+              </div>
+              <div class="card-body blogu-body">
+                <p class="card-blogu-title"><i class="bi bi-calendar2-check-fill"></i> 11 february 2025</p>
+                <p class="card-text card-cards-text">Stories of Strength: A Day Among Tanzania’s Scholarship Families
+                </p>
+                <a href="#" class="card-link blogu-link">
+                  Read More<span class="space-left"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide swiper-slide1">
+          <a href="#" class="blog-blogu-link">
+            <div class="card shadow card-index-blogu-cards h-100">
+              <div>
+                <img src="assets/images/7.jpg" class="card-img-top card-cards-img-top" alt="Our Event">
+                <span class="index-badge">TANZANia</span>
+              </div>
+              <div class="card-body blogu-body">
+                <p class="card-blogu-title"><i class="bi bi-calendar2-check-fill"></i> 11 march 2025</p>
+                <p class="card-text card-cards-text">Progress and Challenges: What Our School Visits Revealed</p>
+                <a href="#" class="card-link blogu-link">
+                  Read More<span class="space-left"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide swiper-slide1">
+          <a href="#" class="blog-blogu-link">
+            <div class="card shadow card-index-blogu-cards h-100">
+              <div>
+                <img src="assets/images/8.jpg" class="card-img-top card-cards-img-top" alt="Our Event">
+                <span class="index-badge">TANZANia</span>
+              </div>
+              <div class="card-body blogu-body">
+                <p class="card-blogu-title"><i class="bi bi-calendar2-check-fill"></i> 11 april 2025</p>
+                <p class="card-text card-cards-text">Choirs, Community, and Courage: Stories from Sunday</p>
+                <a href="#" class="card-link blogu-link">
+                  Read More<span class="space-left"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                </a>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="swiper-pagination red-active"></div>
+    </div>
+  </div>
+  <div class="container-fluid d-flex justify-content-center align-items-center container-blogu-btn">
+    <div class="row">
+      <div class="col">
+        <div> <a href="#" class="see-all-button">see all</a></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid report-container">
+    <div class="row">
+      <div class="report-head text-center">Stories of hope</div>
+      <div class="col-12 col-md-6 col-lg-6 px-3 px-md-2 report-gap">
+        <div id="mycarousel-report" class="carousel" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active report-index-item">
+              <img src="assets/images/5.jpg" class="d-block w-100 report-index-image" alt="...">
+              <div class="carousel-caption carousel-report-caption">
+                <h5>programs</h5>
+                <p>Empowering The next generation of changemakers.</p>
+                <div>
+                  <a href="#" class="report-link">Read More<span class="space-left"><i class="fa fa-angle-double-right"
+                        aria-hidden="true"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 px-3 px-md-2">
+        <div id="mycarousel-report" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+          <div class="carousel-inner">
+            <div class="carousel-item report-index-item active" data-bs-interval="5000">
+              <img src="assets/images/12.jpg" class="d-block w-100 report-index-image" alt="Success Story">
+              <div class="carousel-caption carousel-report-caption">
+                <h5>Success Stories</h5>
+                <p>From Struggle to Strength: Amina’s Journey Back to School.</p>
+                <div>
+                  <a href="#" class="report-link">full story<span class="space-left"><i class="fa fa-angle-double-right"
+                        aria-hidden="true"></i></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item report-index-item" data-bs-interval="5000">
+              <img src="assets/images/13.jpg" class="d-block w-100 report-index-image" alt="Success Story">
+              <div class="carousel-caption carousel-report-caption">
+                <h5>Success Stories</h5>
+                <p>Lighting the Way: John’s Story of Change Through Our Organization.</p>
+                <div>
+                  <a href="#" class="report-link">full story<span class="space-left"><i class="fa fa-angle-double-right"
+                        aria-hidden="true"></i></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item report-index-item" data-bs-interval="5000">
+              <img src="assets/images/14.jpg" class="d-block w-100 report-index-image" alt="Success Story">
+              <div class="carousel-caption carousel-report-caption">
+                <h5>Success Stories</h5>
+                <p>Empowered Through Us: Ramadhan’s Rise From Hardship to Opportunity.</p>
+                <div>
+                  <a href="#" class="report-link">full story<span class="space-left"><i class="fa fa-angle-double-right"
+                        aria-hidden="true"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid donation-container">
+    <div class="row">
+      <h5 class="text-center donation-head">Our Impact</h5>
+      <div class="col-12 col-md-4">
+        <div class="progress-circle-wrapper d-flex flex-column align-items-center justify-content-center">
+          <span class="progress-circle-container" id="circleSection">
+            <div class="progress-circle">
+              <svg width="100" height="100">
+                <circle class="bg" cx="50" cy="50" r="45" />
+                <circle class="progress" cx="50" cy="50" r="45" />
+              </svg>
+              <div class="progress-text" id="progressPercent">0%</div>
+            </div>
+            <div class="text-content">
+              <p><strong>100%</strong> of all your donations go to program services.</p>
+              <div class="donation-link pt-3"><a href="#" class="donation-link1">read more<i
+                    class="fa fa-long-arrow-right ps-2 redi" aria-hidden="true"></i></a></div>
+            </div>
+          </span>
+        </div>
+      </div>
+      <div class="col-12 col-md-8 gy-5 gy-md-0">
+        <div class="row text-center counter-row">
+          <div class="col-4 custom-col col-lg-3  mb-3">
+            <i class="fas fa-users icon-style icon-users"></i>
+            <h2 class="counter-numbers py-1" data-target="10000">0</h2>
+            <p class="donation-p1">Youth Empowered</p>
+          </div>
+          <div class="col-4 custom-col col-lg-3  mb-3">
+            <i class="fas fa-graduation-cap icon-style icon-scholarship"></i>
+            <h2 class="counter-numbers py-1" data-target="150">0</h2>
+            <p class="donation-p1">Scholarships Awarded</p>
+          </div>
+          <div class="col-4 custom-col col-lg-3  mb-3">
+            <i class="fas fa-hand-holding-usd icon-style icon-funding"></i>
+            <h2 class="counter-numbers py-1" data-target="35">0</h2>
+            <p class="donation-p1">Projects Funded</p>
+          </div> 
+          <div class="col-4 custom-col col-lg-3  mb-3">
+            <i class="fas fa-handshake icon-style icon-partner"></i>
+            <h2 class="counter-numbers py-1" data-target="20">0</h2>
+            <p class="donation-p1">Partner Institutions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid footer-contena">
+      <div class="row text-sm-start logo-row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 custom-footer-col">
+          <div class="centa-logo pb-2">
+            Get in Touch
+          </div>
+          <ul class="list-unstyled">
+            <li class="footer3">
+              <i class="fa-solid fa-location-dot footer2-1"></i>Meiselstr. 1 <br /><span class="ps-4">1150 Wien
+                (Vienna), Austria</span>
+            </li>
+            <li class="footer3">
+              <i class="fa-solid fa-envelope footer2-1"></i>mrupprecht@aon.at
+            </li>
+            <li class="footer3">
+              <span class="footer2"><i class="fa-solid fa-phone footer2-1"></i>+43 699 18822241</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 custom-footer-col">
+          <h5 class="footer-heads">Who we are</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer2 footer-hover">History</a> </li>
+            <li><a href="#" class="footer2 footer-hover">Mission</a></li>
+            <li><a href="#" class="footer2 footer-hover">Foundation Board</a></li>
+            <li><a href="#" class="footer2 footer-hover">Annual Reports</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 custom-footer-col">
+          <h5 class="footer-heads">stay connected</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer2 footer-hover">Picture Gallery</a></li>
+            <li><a href="#" class="footer2 footer-hover">Our Blog</a></li>
+            <li><a href="#" class="footer2 footer-hover">Donate Now</a> </li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 custom-footer-col">
+          <h5 class="footer-heads">newsletter</h5>
+          <div class="py-3">
+          <input type="email" class="form-control subscribe-input" placeholder="Enter your email" aria-label="Email">
+          <button class="btn mt-3 subscribe-btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <!-- Line with Bootstrap utilities -->
+      <div class="mx-auto my-3 horizontal-line"></div>
+      <div class="row footer-terms">
+        <div class="col-sm">
+          <div class="footer-icons">
+            <a href="https://www.instagram.com/youthcrossingboundaries?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              target="_blank"><i class="fa-brands fa-instagram icon-hover footer-icons1"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter icon-hover footer-icons1"></i></a>
+            <a href="https://facebook.com/100094742646234" target="_blank"><i
+                class="bi bi-facebook icon-hover footer-icons1"></i></a>
+            <a href="https://youtube.com/@youthcrossingboundariesf-bt5ps?si=L_c8ii1uYyGYYvMw" target="_blank"><i
+                class="fa-brands fa-youtube icon-hover footer-icons1"></i></a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="footer1">
+            <p>&copy; <span id="currentYear" class="pe-2"></span>Youth Crossing Boundaries foundation
+              <span class="separator">|</span>
+              all rights reserved.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="footer-links">
+            <a href="{% url 'sera' %}" class="footer-hover">Privacy Policy</a>
+            <span class="separator">|</span>
+            <a href="{% url 'masharti' %}" class="footer-hover">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-4 mt-4">
+        <div class="col-sm">
+          <div class="d-flex justify-content-center text-white">
+            <a href="https://wa.me/255622984011" class="designer" target="_blank"><span class="text-white">Developed
+                By</span> MsakiTech Xpert
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer-->
+
+  <script src="assets/package/swiper-bundle.min.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new Swiper(".swiper1", {
+        slidesPerView: 1,
+        spaceBetween: 15,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        speed: 800,
+        breakpoints: {
+          550: {
+            slidesPerView: 2
+          },
+          950: {
+            slidesPerView: 3
+          }
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    });
+  </script>
+
+
+  <script>
+    function animateProgress(targetPercentage, duration = 1000) {
+      const circle = document.querySelector('.progress-circle .progress');
+      const text = document.getElementById('progressPercent');
+      const radius = 45;
+      const circumference = 2 * Math.PI * radius;
+
+      let current = 0;
+      const interval = 10;
+      const steps = duration / interval;
+      const increment = targetPercentage / steps;
+
+      let progress = 0;
+      const animation = setInterval(() => {
+        progress += increment;
+        if (progress >= targetPercentage) {
+          progress = targetPercentage;
+          clearInterval(animation);
+        }
+
+        const offset = circumference - (progress / 100) * circumference;
+        circle.style.strokeDashoffset = offset;
+        text.textContent = `${Math.round(progress)}%`;
+      }, interval);
+    }
+
+    // Detect scroll into view
+    const progressObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateProgress(100);
+          observer.unobserve(entry.target); // Only run once
+        }
+      });
+    }, { threshold: 0.5 });
+
+    progressObserver.observe(document.getElementById('circleSection'));
+  </script>
+
+  <script>
+    const counters = document.querySelectorAll('.counter-numbers');
+
+    const animateCounter = (counter) => {
+      const target = +counter.getAttribute('data-target');
+      const duration = 1000;
+      const stepTime = 10;
+      let current = 0;
+      const increment = target / (duration / stepTime);
+
+      const updateCounter = () => {
+        current += increment;
+        if (current < target) {
+          counter.textContent = Math.ceil(current) + '+';
+          setTimeout(updateCounter, stepTime);
+        } else {
+          counter.textContent = target + '+';
+        }
+      };
+
+      updateCounter();
+    };
+
+    const counterObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounter(entry.target);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    counters.forEach(counter => counterObserver.observe(counter));
+  </script>
+
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const offcanvasElement = document.getElementById('offcanvasNavbar');
+      const bsOffcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvasElement);
+      const closeBtn = offcanvasElement.querySelector('.btn-close');
+
+      // 🔸 When Opening
+      offcanvasElement.addEventListener('show.bs.offcanvas', function () {
+        offcanvasElement.classList.add('offcanvas-animate-in');
+      });
+
+      // 🔸 After Open Animation Ends
+      offcanvasElement.addEventListener('shown.bs.offcanvas', function () {
+        setTimeout(() => {
+          offcanvasElement.classList.remove('offcanvas-animate-in');
+        }, 500); // match duration
+      });
+
+      // 🔸 When Closing
+      closeBtn.addEventListener('click', function (e) {
+        e.preventDefault(); // prevent instant Bootstrap close
+        offcanvasElement.classList.add('offcanvas-animate-out'); // Add close animation class
+
+        setTimeout(() => {
+          bsOffcanvas.hide(); // Close after animation
+          offcanvasElement.classList.remove('offcanvas-animate-out'); // Clean up
+        }, 500); // match animation duration
+      });
+    });
+  </script>
+
+
+  <script>
+    // Create a Date object for Tanzania's timezone (EAT is UTC+3)
+    const tanzaniaTime = new Date().toLocaleString("en-US", {
+      timeZone: "Africa/Dar_es_Salaam",
+    });
+
+    // Get the year from the localized date
+    const currentYear = new Date(tanzaniaTime).getFullYear();
+
+    // Insert the year into the element
+    document.getElementById("currentYear").textContent = currentYear;
+  </script>
+  <!-- Bootstrap Js -->
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
