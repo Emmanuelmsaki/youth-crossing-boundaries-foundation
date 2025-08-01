@@ -54,7 +54,7 @@
 .blog-nakala i {
   margin-left: 15px;
   font-weight: 700;
-  color:#1a1a1a;
+  color: #1a1a1a;
 }
 .blog-page-share {
   display: flex;
@@ -760,7 +760,7 @@
   padding: 0.1rem;
   top: 0;
   z-index: 1030;
-  background-color: rgba(255, 255, 255, 0.7); /* black with 50% transparency */
+  background-color: rgba(255, 255, 255, 0); /* black with 50% transparency */
   height: 90px;
   margin: 10px;
   border-radius: 1.25rem;
@@ -772,12 +772,15 @@
 }
 
 .navbar .nav-item .nav-link.active {
-  color: #eb7100;
+  color: #eb7100 !important;
 }
 
 .navbar-toggler {
   border: none;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E");
 }
 
 .navbar-toggler:focus,
@@ -810,20 +813,20 @@
   align-items: center;
   letter-spacing: 0rem;
   font-size: 1rem;
-  color: #1a1a1a;
+  color: #fff !important;
   font-weight: bold;
   position: relative;
   text-transform: uppercase;
 }
 
 .nav-item .nav-link:focus {
-  color: #eb7100;
+  color: #fff !important;
 }
 
 .nav-link:hover,
 .nav-link.active,
 .navbar .nav-item .nav-link.active {
-  color: #eb7100;
+  color: #fff !important;
 }
 
 .offcanvas-fullscreen {
@@ -833,9 +836,8 @@
 }
 
 .offcanvas {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 1); /* black with 50% transparency */
   z-index: 1055;
-  color: #1a1a1a;
 }
 
 .offcanvas-body {
@@ -848,7 +850,7 @@
 }
 
 .dropdown-menu {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
   border: 0;
   padding: 10px 10px;
   color: #1a1a1a;
@@ -867,7 +869,7 @@
 .dropdown-item:hover,
 .dropdown-item:focus {
   color: #eb7100;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .hover-move {
@@ -1088,8 +1090,32 @@
   }
 }
 
+@media (max-width: 990.98px) {
+    .navbar .container-fluid {
+    padding-left: 0 !important;
+  }
+
+  .offcanvas .nav-link {
+    color: #1a1a1a !important;
+  }
+
+  .offcanvas .nav-link:hover,
+  .offcanvas .nav-link.active {
+    color: #eb7100 !important; /* optional hover/active color */
+  }
+
+  .offcanvas .nav-link,
+  .offcanvas .nav-link:focus,
+  .offcanvas .nav-link:active,
+  .offcanvas .nav-link:visited,
+  .offcanvas .nav-link:target {
+    color: #1a1a1a !important;
+    background-color: transparent !important;
+  }
+}
+
 @media (max-width: 767.5px) {
-   .blog-page-share2,
+  .blog-page-share2,
   .blog-page-share {
     line-height: 4rem;
     display: flex;
@@ -1120,26 +1146,26 @@
   .blog-nakala a {
     font-size: 0.9rem;
   }
-  .blog-page-text{
+  .blog-page-text {
     font-size: 1rem;
     line-height: 1.4rem;
   }
-    .border-md-right {
+  .border-md-right {
     border-right: none;
     /* Remove border on smaller screens */
   }
-    .blogu-page-col-right-space {
+  .blogu-page-col-right-space {
     padding-right: 10px;
   }
   .blog-page-date {
-  font-size: 0.8rem;
-}
+    font-size: 0.8rem;
+  }
 
-.blog-page-header {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-}
-   .blog-page-container {
+  .blog-page-header {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+  .blog-page-container {
     padding: 30px 15px;
   }
   .blogu-container {
@@ -1272,12 +1298,15 @@
   .carousel-nav-item {
     height: 30rem;
   }
+  .navbar {
+    margin: 3px;
+  }
   .nav-link {
     font-size: 0.9rem;
   }
   .Donation-button {
     font-size: 10px;
-    padding: 6px 16px;
+    padding: 8px 18px;
   }
   .see-all-button {
     letter-spacing: 0.1rem;
